@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Zilla Slab', serif;
+}
+
+/**first-page**/
+.navbar{
+    display: flex;
+    margin-left: 25px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 50px;
+}
+.navbar nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: orangered;
+    font-size: 18px;
+}
+header img{
+    width: 60px;
+    cursor: pointer;
+}
+header a{
+    padding-top: 1%;
+}
+.half-width{
+    width: 42%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+h1{
+    font-size: 50px;
+    color: black;
+}
+h1 span{
+    color: orangered;
+}
+p{
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+}
+.half-width img{
+    width: 57%;
+    padding-left: 20%;
+}
+.order-button{
+    text-decoration: none;
+    background: linear-gradient(orange, orangered);
+    padding: 15px 40px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 300;
+}
+.first-page{
+    padding-bottom: 65px;
+}
+
+/**second-page**/
+.second-width{
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.second-page h1{
+    text-align: center;
+    font-size: 50px;
+    color: orangered;
+}
+.second-width p{
+    width: 40%;
+    text-align: center;
+    padding-left: 30%;
+    font-size: 18px;
+    color: black;
+}
+.second-width img{
+    width: 20%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**third-page**/
+.third-width{
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+.third-width h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+.third-width p{
+    width: 40%;
+    text-align: center;
+    padding-left: 30%;
+    font-size: 18px;
+    color: black;
+}
+.third-width img{
+    width: 30%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.dessert{
+    float: left;
+    width: 20%;
+    padding-left: 10%;
+    margin-top: 55px;
+    padding-bottom: 50px;
+}
+.dessert img{
+    width: 100%;
+    border-radius: 30%;
+}
+.dessert h2{
+    text-align: center;
+    color: orangered;
+}
+.dessert p{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+.contact h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
